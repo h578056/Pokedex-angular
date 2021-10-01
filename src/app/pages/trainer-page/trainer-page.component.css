@@ -1,0 +1,37 @@
+.pokemonContainer {
+  width: 15rem;
+  min-height: 7rem;
+  min-width: 17rem;
+  background-color: cadetblue;
+  margin: 0.5rem;
+  border-style: solid;
+  border-radius: 5px;
+  text-align: center;
+  align-items: center;
+  box-shadow: 4px 3px 8px 1px #969696;
+}
+.titleH2 {
+  text-align: center;
+  padding: 1rem;
+}
+img {
+  margin: auto;
+  display: flex;
+}
+.delete-button {
+  margin: 0.2rem;
+  cursor: pointer;
+  width: 95%;
+  font-size: 2rem;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: .625rem;
+}
+.grid-item {
+  padding: 1.25rem;
+  font-size: 1.875rem;
+  text-align: center;
+}
+

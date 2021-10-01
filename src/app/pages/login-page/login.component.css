@@ -1,0 +1,12 @@
+.inputContainer {
+  text-align: center;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+.input {
+  align-items: center;
+  justify-self: center;
+  min-width: 20rem;
+  width: 50rem;
+}

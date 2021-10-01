@@ -1,0 +1,18 @@
+<div class="centerContent">
+  <div>
+    <button class="btn btn-primary d-flex align-items-center" (click)="onBackClick()">Back</button>
+    <button class="btn btn-primary d-flex align-items-center" (click)="onLogoutClick()">Logout</button>
+    <h2 class="titleH2">Collected Pokemon</h2>
+    <div class="grid-container">
+      <div *ngFor="let pokemon of pokemons;let indexOfelement=index;" class="grid-item">
+        <div class="pokemonContainer">
+          <h3>{{ pokemon.name }}</h3>
+          <p><img src="{{ pokemon.avatar }}" alt="pokemon" /></p>
+          <button class="delete-button" (click)="deletePokemon(pokemon, indexOfelement)">
+            <p>Delete</p> 
+            {{ pokemon.name }}
+          </button>
+        </div>
+      </div>
+  </div>
+</div>
